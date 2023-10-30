@@ -84,7 +84,7 @@ Vagrant.configure("2") do |config|
         },
         path: "scripts/common.sh"
       node.vm.provision "shell", path: "scripts/node.sh"
-
+      
     end
 
   end
